@@ -6,13 +6,13 @@ CREATE TABLE instruments (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     Nom VARCHAR(255) NOT NULL,
     Catégorie VARCHAR(255) NOT NULL, 
-    Prix (€) INT, 
+    Prix INT, 
     État VARCHAR(255) NOT NULL,
     Disponibilité VARCHAR(255) NOT NULL,
     Vendeur VARCHAR(255) NOT NULL
 );
 
-INSERT INTO instruments (ID, Nom, Catégorie, Prix (€), État, Disponibilité, Vendeur)
+INSERT INTO instruments (ID, Nom, Catégorie, Prix, État, Disponibilité, Vendeur)
 VALUES 
     (1, "Guitare acoustique", "Corde", 150, "Bon", "Disponible", "John Doe"),
     (2, "Piano éléctrique", "Clavier", 300, "Très bon", "Disponible", "Jane Smith"),
@@ -22,11 +22,11 @@ VALUES
 
 CREATE TABLE users (
     ID INT AUTO_INCREMENT PRIMARY KEY,
-    "Nom d'utilisaeur" VARCHAR(255) NOT NULL,
-    Mot de passe VARCHAR(255) NOT NULL
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
 );
 
-INSERT INTO users (ID, "Nom d'utilisaeur", Mot de passe)
+INSERT INTO users (ID, username, password)
 VALUES 
     (1, "admin", "password123"),
     (2, "user1", "guitar2024"),

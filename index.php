@@ -29,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt->rowCount() > 0) {
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
         $_SESSION['user_id'] = $user['ID'];
-        header("Location: cyberportfolio.php?id=" . $user['ID']);
+        header("Location: occaz'music.php?id=" . $user['ID']);
         exit();
     } else {
         $errorMsg = "Incorrect username or password.";

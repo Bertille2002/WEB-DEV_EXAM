@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(243, 243, 215);
+    padding-bottom: 15px;
+}
+
+.header {
+    padding: 40px;
+    text-align: center;
+    background: tan;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+footer {
+    padding: 5px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: tan;
+}
+
+.copyright {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    font-size: larger;
+}
