@@ -8,12 +8,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="sign_up.css"
+    <link rel="stylesheet" href="assets/sign_up.css"
 </head>
 <body>
     <div class="signup-container">
         <h2>Create Account</h2>
-        <form action="signup.php" method="post">
+        <form action="sign_up.php" method="post">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" required>
 
