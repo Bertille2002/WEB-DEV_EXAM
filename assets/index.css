@@ -1,58 +1,40 @@
-.head {
-    font-size: medium;
-    text-align: center;
-}
-
-.title {
-    font: Georgia;
-    font-size: large;
-}
-
-.login_form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 7cm;
-    height: 6cm;
-    background-color: rgb(209, 151, 124);
-    border-radius: 9px;
-    border-color: rgb(58, 58, 58);
-    border-width: 3px;
-    position: relative;
-    margin: auto;
-}
-
-input {
-    width: 6cm;
-    height: 0.8cm;
-    border-radius: 9px;
-    border-width: 0.0001cm;
-}
-
-input::placeholder {
-    color: rgba(0, 0, 0, 0.774);
-}
-
-.bttn {
-    color: var(--color5);
-    background-color: rgb(255, 255, 255);
-    border-color: white;
-    border-radius: 9px;
-    border-width: 0.001cm;
-    width: 6.2cm;
-    height: 0.9cm;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.header_2 {
-    text-align: center;
-}
-
 .error-message {
     color: red;
     background-color: #ffe6e6;
     border: 1px solid red;
     padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.container {
+    background-color: rgb(238, 205, 185);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.container h2 {
+    text-align: center;
+}
+.container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.container input[type="submit"]:hover {
+    background-color: #11ff1d;
 }

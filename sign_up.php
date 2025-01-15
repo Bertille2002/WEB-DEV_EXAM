@@ -13,7 +13,7 @@
 <body>
     <div class="signup-container">
         <h2>Create Account</h2>
-        <form action="sign_up.php" method="post">
+        <form method="POST" action="record.php">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" required>
 
@@ -26,5 +26,6 @@
             <p>Already a member ?  <a href="index.php">Login here</a> </p>
         </div>
     </div>
+<script src='assets/index.js'></script>
 </body>
 </html>
